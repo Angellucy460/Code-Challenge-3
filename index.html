@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Pulse</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Post Pulse</h1>
+            <p>Modern blog post management</p>
+        </header>
+        <main class="main-content">
+            <aside class="sidebar">
+                <section class="posts-list-section">
+                    <h2>Blog Posts</h2>
+                    <p class="post-count">0 post</p>
+                    <ul class="post-list">
+                       <!-- Posts rendered here by JS --> 
+                    </ul>
+                </section>
+                <section class="add-post-section">
+                    <h3>+ Add New Post</h3>
+                    <button type="button" id="new-title">Create New Post</button>
+                    <div class="lucy" id="h">
+                    <form id="new-post-form">
+                        <input type="text" id="new-title" placeholder="Post title..." required>
+                        <input type="text" id="new-author" placeholder="Author name..." required>
+                        <input type="text" id="new-image" placeholder="Image URL..." required>
+                        <textarea id="new-content" placeholder="Write your post content..." required></textarea>
+                        <button type="submit" class="add-btn">+ Add Post</button>
+                        <button type="button" id="cancel-edit" >Cancel</button>
+                        
+                    </form>
+                </div>
+                </section>
+            </aside>
+            <section class="post-detail-section">
+                <div class="post-actions">
+                            <button class="edit-btn">Edit</button>
+                            <button class="delete-btn">Delete</button>
+                        </div>
+                    </div>
+                   
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
