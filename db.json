@@ -4,7 +4,9 @@
       "id": 1,
       "title": "Hello World",
       "content": "This is my first blog post",
-      "author": "Angel Lucy"
+      "author": "Angel Lucy",
+      "image": "https://via.placeholder.com/600x220?text=Hello+World",
+      "date": "2024-06-24"
     }
   ]
 }
