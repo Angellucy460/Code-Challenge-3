@@ -142,8 +142,10 @@ function deletePost(postId) {
     if (!confirm("Are you sure you want to delete this post?")) return;
     fetch(`${API_URL}/${postId}`, {
         method: "DELETE"
-    }).then(() => {
-        document.querySelector(".post-detail-section").innerHTML = "";
+    })
+    .then(() => {
         displayPosts();
+        // Optionally, clear the post detail section after deletion
+        document.querySelector(".post-detail-section").innerHTML = "";
     });
 }
