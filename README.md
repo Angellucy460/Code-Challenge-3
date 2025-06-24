@@ -99,7 +99,7 @@ Edit
 git checkout -b feature/your-feature
 Push your changes and open a Pull Request!
 
-👩‍💻 Author
+👩 Author
 Angel Lucy
 📞 +254 790 781 575
 📧 angelliona38@gmail.com
