@@ -1,5 +1,5 @@
 body {
-    background: grey;
+    background: aqua;
     font-family: 'Segoe UI', Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -42,7 +42,7 @@ header p {
 
 .posts-list-section,
 .add-post-section {
-    background: #fff;
+    background: black;
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.04);
     padding: 24px 20px;
@@ -52,11 +52,11 @@ header p {
     margin: 0 0 8px 0;
     font-size: 1.2rem;
     font-weight: 600;
-    color: #22223b;
+    color: white;
 }
 
 .post-count {
-    color: #6c757d;
+    color: white;
     font-size: 0.95rem;
     margin-bottom: 16px;
 }
@@ -83,20 +83,20 @@ header p {
 .post-title {
     display: block;
     font-weight: 500;
-    color: #22223b;
+    color: black;
 }
 
 .post-meta {
     display: block;
     font-size: 0.92rem;
-    color: #6c757d;
+    color: white;
 }
 
 .add-post-section h3 {
     font-size: 1.1rem;
     font-weight: 600;
     margin-bottom: 12px;
-    color: #22223b;
+    color: white;
 }
 
 #new-post-form {
@@ -107,7 +107,7 @@ header p {
 
 #new-post-form input,
 #new-post-form textarea {
-    border: 1px solid #d1d5db;
+    border: 1px solid white;
     border-radius: 6px;
     padding: 10px;
     font-size: 1rem;
@@ -127,7 +127,7 @@ header p {
 
 .add-btn {
     background: #22223b;
-    color: #fff;
+    color: white;
     border: none;
     border-radius: 6px;
     padding: 8px 18px;
@@ -141,7 +141,7 @@ header p {
 }
 
 .cancel-btn {
-    background: #e5e7eb;
+    background: white;
     color: #22223b;
     border: none;
     border-radius: 6px;
@@ -152,7 +152,8 @@ header p {
 }
 
 .cancel-btn:hover {
-    background: #d1d5db;
+    background: blue;
+    cursor: pointer;
 }
 
 .post-detail-section {
@@ -163,7 +164,7 @@ header p {
 }
 
 .post-detail-card {
-    background: #fff;
+    background: white;
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.04);
     padding: 28px 32px 24px 32px;
@@ -187,7 +188,7 @@ header p {
 
 .post-detail-header .post-meta {
     font-size: 0.98rem;
-    color: #6c757d;
+    color: grey;
 }
 
 .post-actions {
@@ -197,8 +198,8 @@ header p {
 
 .edit-btn,
 .delete-btn {
-    background: #f3f4f6;
-    color: #22223b;
+    background: white;
+    color: black;
     border: none;
     border-radius: 6px;
     padding: 6px 14px;
@@ -208,13 +209,13 @@ header p {
 }
 
 .edit-btn:hover {
-    background: #e0e7ef;
+    background: white;
     cursor: pointer;
 }
 
 .delete-btn:hover {
-    background: #fee2e2;
-    color: #b91c1c;
+    background: white;
+    color: red;
 }
 
 .post-image {
