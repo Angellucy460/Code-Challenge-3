@@ -7,6 +7,20 @@
       "author": "Angel Lucy",
       "image": "https://via.placeholder.com/600x220?text=Hello+World",
       "date": "2024-06-24"
+    },
+    {
+      "title": "",
+      "content": "good post",
+      "author": "dennis",
+      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240528112457/Artificial-intelligence-in-robotics.webp",
+      "id": 2
+    },
+    {
+      "title": "",
+      "content": "cool",
+      "author": "dennis",
+      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240528112457/Artificial-intelligence-in-robotics.webp",
+      "id": 3
     }
   ]
 }
